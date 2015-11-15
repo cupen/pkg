@@ -11,7 +11,7 @@ setup(
     description='package manager wapper for humans.',
     entry_points={
         "console_scripts": [
-            "pkg=pkg:main",
+            "pkg=pkg.__main__:main_too",
         ],
     },
 )

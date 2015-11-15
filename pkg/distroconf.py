@@ -5,7 +5,7 @@ import traceback
 __author__ = 'cupen'
 
 CMD_WRPPER_DICT = {}
-CMD_WRPPER_DICT['ubuntu'] = {
+CMD_WRPPER_DICT['Ubuntu'] = {
     "search":    'apt-cache search %s',
     "install":   'apt-get install %s',
     "uninstall": 'apt-get autoremove --purge %s',
@@ -16,7 +16,7 @@ CMD_WRPPER_DICT['ubuntu'] = {
     "upgrade":   'apt-get upgrade',
 }
 
-CMD_WRPPER_DICT['archlinux'] = {
+CMD_WRPPER_DICT['Archlinux'] = {
     "search":    'pacman -Ss %s',
     "install":    'pacman -S %s',
     "upgrade":   'pacman -Syyu',
